@@ -1,0 +1,10 @@
+var url = 'https://pepe.bt.com/abracadabra/css/cdesktpf/potato/';
+var host = 'pepe.bt.com';
+var newhost = 'css2.irtve.es';
+var regex = /\/css\/.*desktp.*/;
+var replacestr1 = '/css/$1tablet$2';
+var replacestr2 = '/css/$1mobile$2';
+var newurl1 = url.replace(regex,replacestr1);
+var newurl2 = url.replace(regex,replacestr2);
+console.log(newurl1);
+console.log(newurl2);
